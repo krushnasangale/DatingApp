@@ -11,3 +11,9 @@ img.img-thumbnail {
 input[type=file] {
     color: transparent;
 }
+
+@media screen and (max-width:820px){
+    img.img-thumbnail {
+        height: 200px;
+    }
+}
